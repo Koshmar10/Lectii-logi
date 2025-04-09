@@ -11,6 +11,4 @@ Bine ai venit!
 
 ## ℹ️ Notă
 
-Acest repository este în continuă actualizare. Codul nu este întotdeauna perfect, dar reflectă procesul meu de învățare.  
-Dacă îți este de ajutor, dă un ⭐!
 
