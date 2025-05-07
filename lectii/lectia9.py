@@ -100,5 +100,42 @@ def OpBiti():
     #Right shift
     print(bin(num >> 2)) # impartire cu 2 **2
 
+def Shifts(a):
+    print(a, a << 3)
+    #0b010 << 1
+    #0b0100
+    # a * 2**3
+    print(a, a >> 2)
+    #0b010 >> 1
+    #0b01
+    #a // 2 * 2
+def isEven(a):
+    # cu modulo
+    '''
+    if a % 2 == 0:
+        return True
+    else:
+        return False
+    '''
+    # biti
+    if a & 0b1 == 1:
+        return False
+    else:
+        return True
+    #0b101   
+    #0b001
+    #2**0*1 + 2**1 * 0 + 2**2 * 1
+#transformari
+# zecmal -> binar
+# 5 / 2 cat 2 rest 1
+# 2 /2 cat 1 rest 0
+# 1 / 2 cat 0 rest 1
+# binar -> zecimal
+# 0b101
+#   210
+# 2**0 * 1 + 2**1 * 0 + 2**2 * 2
+# 1 + 0 + 4 = 5 
 
-OpBiti()
+#OpBiti()
+Shifts(11)
+print(isEven(4))
